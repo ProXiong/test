@@ -1,4 +1,8 @@
 on: push
 jobs:
   job1:
+    steps:
+      - run: echo "Hello, World!"
   job2:
+    steps:
+      - run: echo "Hello, World!3"
